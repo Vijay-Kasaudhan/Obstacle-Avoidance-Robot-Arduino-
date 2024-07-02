@@ -2,8 +2,9 @@
 
 ### Abstract
 
-The goal of this project is to build and develop a robot car using Arduino, that is able to follow a line, avoid obstacles if found while following the line and then come back to the original path. In this repository will be provided the whole code used to achieve the goal, the circuit diagram, and the NewPing library used for the ultrasonic sensor. About the hardware part: has been used an Arduino Uno as board, a Sensor Shield v5.0 and an L298N Dual Bridge, both optional, used to manage cables of wheels. A servo motor to rotate the ultrasonic sensor, an ultrasonic sensor to measure the distance from obstacles and two infrared sensor to track the line. As will be showed in some videos, the result has been achieved. If you wish to implement the code available in this repository make sure to tune parameters of the delay() functions in the code. Since the delay changes basing on the voltage of your batteries and the quality of your sensors, more or less delay will be needed to perform actions like a turn or any other movement. 
+This project showcases a robot car designed to autonomously navigate its environment by avoiding obstacles and following a designated path. Equipped with ultrasonic sensors, the robot car detects and steers clear of obstacles, ensuring smooth movement without collisions. Additionally, it uses infrared (IR) sensors to detect and follow a line, enabling precise path tracking. The combination of ultrasonic waves for obstacle detection and IR rays for line following makes this robot car an efficient and reliable solution for various autonomous navigation tasks. Ideal for educational purposes and hobbyist projects, this repository includes all necessary code, schematics, and detailed instructions for assembly and operation.
 
+Feel free to fork this repository, contribute, or adapt it to your specific needs!
 ### Component List
 <ul>
   <li>1x Arduino Uno</li>
