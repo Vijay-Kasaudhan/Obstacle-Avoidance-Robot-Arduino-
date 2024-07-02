@@ -1,4 +1,4 @@
-# Arduino-Robot-Car-Line-Following-Obstacle-Avoidance
+# Obstacle Avoidance Robot made using Ardunio
 
 ### Abstract
 
